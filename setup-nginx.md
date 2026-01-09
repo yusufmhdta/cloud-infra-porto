@@ -8,7 +8,7 @@ Menjalankan web application sederhana menggunakan Nginx pada Google Compute Engi
 ## Environment
 - Cloud Provider: Google Cloud Platform (GCP)
 - Service: Compute Engine
-- OS: Ubuntu 20.04 LTS
+- OS: Ubuntu 24.04 LTS
 - Web Server: Nginx
 
 ---
@@ -31,3 +31,24 @@ Gunakan SSH dari Google Cloud Console.
 ```bash
 sudo apt update
 sudo apt install nginx -y
+```
+---
+
+### 4. Start & Enable Nginx
+```bash
+sudo systemctl start nginx
+sudo systemctl enable nginx
+```
+---
+
+### 5. Verify Web Server
+
+Akses melalui browser (Windows)
+
+```bash
+http://localhost:8080
+```
+
+Jika muncul halaman default Nginx berarti deployment berhasil.
+
+---

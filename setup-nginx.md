@@ -52,3 +52,8 @@ http://localhost:8080
 Jika muncul halaman default Nginx berarti deployment berhasil.
 
 ---
+
+### Result
+
+<img width="797" height="301" alt="{F8860C85-F8B8-4CF2-88DE-B2D0DF7D10E8}" src="https://github.com/user-attachments/assets/59e6b5c4-4cca-4111-b4e0-80127daf87f6" />
+
